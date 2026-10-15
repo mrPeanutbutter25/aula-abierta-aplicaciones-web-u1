@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aula Abierta: una propuesta académica de talleres para aprender tecnología creando proyectos.">
+  <title>Aula Abierta | Aprende creando</title>
+  <link rel="icon" href="assets/simbolo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Aula Abierta, inicio"><span class="brand-symbol" aria-hidden="true">a<span>↗</span></span> aula abierta<span class="brand-dot">.</span></a>
+      <button class="menu-button" type="button" aria-controls="navegacion" aria-expanded="false" hidden>Menú <span aria-hidden="true">☰</span></button>
+      <nav id="navegacion" aria-label="Navegación principal">
+        <a href="#propuesta">La iniciativa</a><a href="#talleres">Talleres</a><a href="#ruta">Cómo funciona</a><a class="nav-cta" href="#inscripcion">Quiero participar <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido" tabindex="-1">
+    <section id="inicio" class="hero container" aria-labelledby="titulo">
+      <div class="hero-copy"><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> UNA INICIATIVA PARA MENTES CURIOSAS</p>
+        <h1 id="titulo">Tu próxima idea<br>empieza <span class="serif">aquí.</span></h1>
+        <p class="hero-description">Aprende tecnología, comparte lo que sabes y convierte la curiosidad en un proyecto que puedas mostrar.</p>
+        <div class="hero-actions"><a class="button" href="#talleres">Explorar talleres <span aria-hidden="true">↗</span></a><a class="text-link" href="#propuesta">Conoce la iniciativa <span aria-hidden="true">↓</span></a></div>
+        <p class="small-note">Sin experiencia previa · A tu ritmo · En comunidad</p>
+      </div>
+      <figure class="hero-art"><img src="assets/laboratorio.svg" width="680" height="560" alt="Ilustración de un espacio creativo con una computadora, código y piezas que representan ideas conectadas."><figcaption><span aria-hidden="true">✳</span> Menos teoría suelta. Más ideas en marcha.</figcaption></figure>
+    </section>
+    <div class="topic-strip" aria-label="Áreas de aprendizaje"><div class="container"><span>Desarrollo web</span><span aria-hidden="true">✳</span><span>Diseño digital</span><span aria-hidden="true">✳</span><span>Trabajo colaborativo</span><span aria-hidden="true">✳</span><span>Proyectos con propósito</span></div></div>
+    <section id="propuesta" class="section container about" aria-labelledby="titulo-propuesta">
+      <div><p class="eyebrow">01 / LA INICIATIVA</p><h2 id="titulo-propuesta">El conocimiento crece<br>cuando se <span class="serif">comparte.</span></h2></div>
+      <div class="about-copy"><p>Aula Abierta es una propuesta académica para acercar las herramientas digitales a estudiantes de distintas carreras. El punto de partida es sencillo: aprender haciendo, con retos pequeños y objetivos claros.</p><p>Cada taller propone un resultado concreto: una página web, un prototipo o un proyecto organizado en equipo. Puedes empezar desde cero y construir sobre lo aprendido.</p><p class="demo-note">Proyecto demostrativo de Aplicaciones Web. La oferta de talleres es ilustrativa; no representa una convocatoria oficial de la universidad.</p></div>
+    </section>
+    <section id="talleres" class="section workshops" aria-labelledby="titulo-talleres"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">02 / ENCUENTRA TU PUNTO DE PARTIDA</p><h2 id="titulo-talleres">Aprende algo.<br><span class="serif">Construye algo.</span></h2></div><p>Elige el área que te interesa.<br>Todos los caminos empiezan con curiosidad.</p></div>
+      <div class="filters" role="group" aria-label="Filtrar talleres por área" hidden><button type="button" data-filter="todos" aria-pressed="true">Todos</button><button type="button" data-filter="desarrollo" aria-pressed="false">Desarrollo</button><button type="button" data-filter="diseno" aria-pressed="false">Diseño</button><button type="button" data-filter="colaboracion" aria-pressed="false">Colaboración</button></div>
+      <p id="resultados" class="filter-status" role="status" aria-live="polite" aria-atomic="true">3 talleres disponibles</p>
+      <div class="workshop-grid">
+        <article class="workshop-card" data-category="desarrollo"><div class="card-art art-code" aria-hidden="true"><span>&lt;/&gt;</span><span class="art-caption">hello, mundo_</span></div><div class="card-body"><p class="card-meta">DESARROLLO · INICIAL</p><h3>Tu primera página web</h3><p>Da estructura a una idea con HTML y dale personalidad con CSS. Crea una web que funcione en cualquier pantalla.</p><div class="card-bottom"><span>3 sesiones · 6 horas</span><a href="#inscripcion" data-workshop="web">Me interesa <span aria-hidden="true">↗</span><span class="sr-only">: Tu primera página web</span></a></div></div></article>
+        <article class="workshop-card" data-category="diseno"><div class="card-art art-design" aria-hidden="true"><span class="shape-circle"></span><span class="shape-square"></span><span class="shape-small"></span></div><div class="card-body"><p class="card-meta">DISEÑO · INICIAL</p><h3>Diseña para las personas</h3><p>Transforma una necesidad en un prototipo. Explora jerarquía visual, contraste y experiencias fáciles de usar.</p><div class="card-bottom"><span>2 sesiones · 4 horas</span><a href="#inscripcion" data-workshop="diseno">Me interesa <span aria-hidden="true">↗</span><span class="sr-only">: Diseña para las personas</span></a></div></div></article>
+        <article class="workshop-card" data-category="colaboracion"><div class="card-art art-team" aria-hidden="true"><span>●──●<br>│ &nbsp; │<br>●──●</span><span class="team-label">mejor, en equipo.</span></div><div class="card-body"><p class="card-meta">COLABORACIÓN · INICIAL</p><h3>Ideas que hacen equipo</h3><p>Organiza tareas, documenta decisiones y descubre cómo Git ayuda a construir proyectos entre varias personas.</p><div class="card-bottom"><span>2 sesiones · 4 horas</span><a href="#inscripcion" data-workshop="equipo">Me interesa <span aria-hidden="true">↗</span><span class="sr-only">: Ideas que hacen equipo</span></a></div></div></article>
+      </div>
+    </div></section>
+    <section id="ruta" class="section container" aria-labelledby="titulo-ruta"><p class="eyebrow">03 / DE LA CURIOSIDAD A LA PRÁCTICA</p><h2 id="titulo-ruta">Un primer paso.<br><span class="serif">Muchas posibilidades.</span></h2><ol class="steps"><li><span class="step-number" aria-hidden="true">01</span><h3>Encuentra tu taller</h3><p>Explora las áreas y elige una habilidad que quieras empezar a desarrollar.</p></li><li><span class="step-number" aria-hidden="true">02</span><h3>Experimenta y pregunta</h3><p>Resuelve ejercicios, prueba alternativas y aprende también de tus errores.</p></li><li><span class="step-number" aria-hidden="true">03</span><h3>Comparte tu proyecto</h3><p>Documenta lo que construiste y cuenta qué mejorarías en una siguiente versión.</p></li></ol></section>
+    <section id="inscripcion" class="section registration" aria-labelledby="titulo-inscripcion"><div class="container registration-grid"><div><p class="eyebrow">04 / DA EL SIGUIENTE PASO</p><h2 id="titulo-inscripcion">Haz espacio<br>para tu <span class="serif">próxima idea.</span></h2><p>Prueba el formulario y elige el taller que te interesa.</p><p class="form-notice" id="aviso-formulario">Demostración académica: los datos se validan únicamente en tu navegador. No se envían ni se guardan. No es una inscripción real.</p></div>
+      <form id="interest-form" aria-describedby="aviso-formulario">
+        <p class="required-note">Todos los campos son obligatorios.</p>
+        <div class="field"><label for="nombre">Nombre completo</label><input id="nombre" name="nombre" autocomplete="name" required minlength="3" maxlength="100" aria-describedby="nombre-error"><p class="field-error" id="nombre-error"></p></div>
+        <div class="field"><label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" autocomplete="email" required maxlength="254" placeholder="tu.nombre@ejemplo.com" aria-describedby="correo-error"><p class="field-error" id="correo-error"></p></div>
+        <div class="field"><label for="taller">Taller de interés</label><select id="taller" name="taller" required aria-describedby="taller-error"><option value="">Selecciona un taller</option><option value="web">Tu primera página web</option><option value="diseno">Diseña para las personas</option><option value="equipo">Ideas que hacen equipo</option></select><p class="field-error" id="taller-error"></p></div>
+        <button class="button" type="submit" disabled>Validar mi interés <span aria-hidden="true">↗</span></button><p id="form-status" role="status" aria-live="polite" aria-atomic="true"></p><noscript><p>Activa JavaScript para habilitar la validación de demostración. Este formulario no envía información.</p></noscript>
+      </form></div></section>
+    <section class="section container faq" aria-labelledby="titulo-preguntas"><div><p class="eyebrow">05 / ANTES DE EMPEZAR</p><h2 id="titulo-preguntas">Resolvamos tus <span class="serif">dudas.</span></h2></div><div><details><summary>¿Necesito saber programar?</summary><p>No. Los talleres están planteados como una introducción. Basta con saber usar un navegador y tener ganas de experimentar.</p></details><details><summary>¿Qué necesito para practicar?</summary><p>Una computadora con navegador actualizado y un editor de texto. Para el taller de colaboración también se propone instalar Git.</p></details><details><summary>¿El formulario reserva un cupo?</summary><p>No. Este sitio es una demostración académica y el formulario solo ejemplifica una validación accesible en el navegador.</p></details></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#inicio">aula abierta.</a><p>Aprender es mejor cuando lo hacemos juntos.</p><p class="credits">Proyecto académico · Bianchi Sujey Navarro Cortez<br>Aplicaciones Web · Unidad 1 · 2026</p></div></footer>
+</body>
+</html>

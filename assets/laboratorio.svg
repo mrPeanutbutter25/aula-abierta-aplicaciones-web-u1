@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="560" viewBox="0 0 680 560">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#c8d0bc" stroke-width="1"/></pattern></defs>
+<rect width="680" height="560" fill="#e9edde"/><rect width="680" height="560" fill="url(#grid)"/>
+<circle cx="352" cy="285" r="199" fill="#dbe5c8"/>
+<g transform="rotate(-6 340 280)"><rect x="140" y="150" width="396" height="259" rx="17" fill="#183c31"/><rect x="153" y="163" width="370" height="224" rx="9" fill="#fbfaf4"/><path d="M154 202H523" stroke="#d1d9c7" stroke-width="2"/><circle cx="173" cy="183" r="5" fill="#af573b"/><circle cx="191" cy="183" r="5" fill="#b89c48"/><circle cx="209" cy="183" r="5" fill="#658253"/>
+<rect x="176" y="226" width="112" height="137" rx="4" fill="#e7edda"/><rect x="192" y="242" width="79" height="8" rx="4" fill="#8ba875"/><rect x="192" y="263" width="53" height="5" rx="2" fill="#bdcdb0"/><rect x="192" y="278" width="67" height="5" rx="2" fill="#bdcdb0"/><rect x="192" y="316" width="65" height="27" rx="4" fill="#174c3e"/>
+<text x="319" y="284" font-family="monospace" font-size="47" fill="#174c3e">&lt;/&gt;</text><path d="M318 310H482M318 327H450M318 344H469" stroke="#c1cfb3" stroke-width="7" stroke-linecap="round"/>
+<path d="M120 409H555L588 442Q589 452 574 452H104Q91 452 96 441Z" fill="#749779"/><path d="M274 409H399L413 425H261Z" fill="#b4c8a4"/></g>
+<g transform="rotate(9 520 125)"><rect x="448" y="63" width="146" height="110" rx="7" fill="#dcf4a4" stroke="#183c31" stroke-width="2"/><text x="465" y="97" font-family="monospace" font-size="15" fill="#183c31">IDEA_001</text><path d="M470 117H563M470 132H538M470 147H554" stroke="#6f8850" stroke-width="4"/></g>
+<g transform="rotate(-12 112 133)"><rect x="59" y="89" width="99" height="98" rx="12" fill="#bd6745"/><path d="M83 138H132M108 113V162M91 121L124 154M124 121L91 154" stroke="#fff0d8" stroke-width="5"/></g>
+<circle cx="554" cy="395" r="51" fill="#e6b65b"/><path d="M532 395h44m-16-16 17 16-17 16" stroke="#183c31" stroke-width="5" fill="none"/>
+<path d="M83 354q-13-52 15-74 25 29 3 68m-6 29q-40-22-37-51 36 1 42 40" fill="#6c8d5b"/><path d="M69 365h51l-8 63H78Z" fill="#c58060"/>
+<text x="170" y="514" font-family="monospace" font-size="13" letter-spacing="3" fill="#425c42">APRENDER. CREAR. COMPARTIR.</text></svg>

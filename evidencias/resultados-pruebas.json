@@ -1,0 +1,99 @@
+{
+  "fecha": "2026-10-14",
+  "navegador": "Chromium / Playwright",
+  "resultados": [
+    {
+      "prueba": "Sin desbordamiento 390px",
+      "resultado": "Correcto",
+      "viewport": 390,
+      "content": 390
+    },
+    {
+      "prueba": "Sin desbordamiento 768px",
+      "resultado": "Correcto",
+      "viewport": 768,
+      "content": 768
+    },
+    {
+      "prueba": "Sin desbordamiento 1440px",
+      "resultado": "Correcto",
+      "viewport": 1440,
+      "content": 1440
+    },
+    {
+      "prueba": "Tab, foco visible y salto al contenido",
+      "resultado": "Correcto"
+    },
+    {
+      "prueba": "Menú móvil, Escape y devolución del foco",
+      "resultado": "Correcto"
+    },
+    {
+      "prueba": "Filtro por área y restablecimiento",
+      "resultado": "Correcto"
+    },
+    {
+      "prueba": "Formulario vacío, correo inválido, selección y confirmación",
+      "resultado": "Correcto"
+    },
+    {
+      "prueba": "Estructura, anclas, alternativas, etiquetas e IDs",
+      "resultado": "Correcto",
+      "h1": 1,
+      "sections": 6,
+      "brokenAnchors": 0,
+      "missingAlt": 0,
+      "missingLabels": 0,
+      "duplicateIds": []
+    },
+    {
+      "prueba": "Reflow a 320px y ampliación de texto al 200%",
+      "resultado": "Correcto"
+    },
+    {
+      "prueba": "Contenido y navegación sin JavaScript",
+      "resultado": "Correcto"
+    },
+    {
+      "prueba": "Errores JavaScript en navegador",
+      "resultado": "Ninguno"
+    },
+    {
+      "prueba": "Contraste de seis pares principales, mínimo 4.5:1",
+      "resultado": "Correcto",
+      "pares": [
+        {
+          "texto": "#172c27",
+          "fondo": "#f8f7f2",
+          "ratio": 13.73
+        },
+        {
+          "texto": "#4d6058",
+          "fondo": "#f8f7f2",
+          "ratio": 6.26
+        },
+        {
+          "texto": "#ffffff",
+          "fondo": "#174c3e",
+          "ratio": 9.81
+        },
+        {
+          "texto": "#dcf4a4",
+          "fondo": "#174c3e",
+          "ratio": 8.19
+        },
+        {
+          "texto": "#9e2222",
+          "fondo": "#f8f7f2",
+          "ratio": 7.24
+        },
+        {
+          "texto": "#e0ebd6",
+          "fondo": "#174c3e",
+          "ratio": 7.96
+        }
+      ]
+    }
+  ],
+  "limites": "Revisión estructural básica, no validación completa W3C. No se realizó auditoría con lector de pantalla ni certificación WCAG."
+}

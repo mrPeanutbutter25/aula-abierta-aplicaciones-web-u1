@@ -1,0 +1,8 @@
+{
+  "name": "aula-abierta-u1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pruebas del sitio académico Aula Abierta",
+  "scripts": {"test": "node pruebas/verificar.cjs"},
+  "devDependencies": {"playwright": "1.62.1"}
+}
